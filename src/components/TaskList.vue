@@ -21,7 +21,7 @@
 
 <script setup>
 import TaskItem from './TaskItem.vue'
-import { useTaskStore } from '../store/tasks'
+import { useTaskStore } from '../store/Tasks'
 import { computed } from 'vue'
 
 const store = useTaskStore()
